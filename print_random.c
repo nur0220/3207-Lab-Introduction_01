@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+#include "random.c"
 
 int main()
 {
 	int a;
-
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
 
